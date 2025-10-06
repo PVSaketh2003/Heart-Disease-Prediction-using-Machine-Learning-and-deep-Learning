@@ -1,11 +1,11 @@
 # Heart-Disease-Prediction-using-Machine-Learning-and-deep-Learning
 
-🩺 Heart Disease Prediction using Machine Learning & Deep Learning
+🩺 **Heart Disease Prediction using Machine Learning & Deep Learning**
 
 This project focuses on predicting the likelihood of heart disease in patients using a variety of machine learning and deep learning techniques.
 It uses a structured dataset containing patient health attributes such as age, cholesterol, resting blood pressure, thalassemia, and more.
 
-🔍 Project Overview
+🔍 **Project Overview**
 
 Dataset Size: 1025 records, 14 features
 
@@ -13,7 +13,7 @@ Goal: Classify whether a person is likely to have heart disease (1) or not (0)
 
 Tech Stack: Python, Pandas, NumPy, Scikit-learn, Keras, Matplotlib, Seaborn
 
-⚙️ Key Steps
+⚙️ **Key Steps**
 
 Data Preprocessing:
 
@@ -49,7 +49,7 @@ Designed a Neural Network (ANN) with multiple dense layers using Keras.
 
 Achieved strong accuracy on validation data (≈95–97%).
 
-🧠 Best Performing Models
+🧠 **Best Performing Models**
 
 KNN (Tuned): 100% test accuracy
 
@@ -57,7 +57,7 @@ Random Forest & Decision Tree: ~98.5% test accuracy
 
 Neural Network: ~95.7% validation accuracy
 
-📊 Evaluation Metrics
+📊 **Evaluation Metrics**
 
 Accuracy
 
@@ -65,15 +65,13 @@ Precision, Recall, F1-Score
 
 Confusion Matrix visualization
 
-📁 How to Use
+📁** How to Use**
 
 Download or clone the repository.
 
 Run the Jupyter Notebook or Python file provided.
 
-Install dependencies using pip install -r requirements.txt.
-
 The trained model will display predictions and performance metrics.
 
-🎯 Objective:
+🎯 **Objective:**
 This project demonstrates how multiple supervised learning algorithms and deep learning architectures can be applied and optimized for a medical classification problem, emphasizing interpretability, model comparison, and performance tuning.
