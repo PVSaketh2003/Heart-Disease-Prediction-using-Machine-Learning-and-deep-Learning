@@ -15,17 +15,17 @@ Tech Stack: Python, Pandas, NumPy, Scikit-learn, Keras, Matplotlib, Seaborn
 
 ⚙️ **Key Steps**
 
-Data Preprocessing:
+**Data Preprocessing:**
 
 Handled missing values, renamed columns, and removed outliers.
 
 Scaled features using StandardScaler.
 
-Exploratory Data Analysis (EDA):
+**Exploratory Data Analysis (EDA):**
 
 Visualized correlations between features like chest pain type, thalassemia, and heart disease risk using Seaborn.
 
-Model Training:
+**Model Training:**
 
 Built and compared multiple classification models:
 
@@ -43,7 +43,7 @@ Naive Bayes
 
 Tuned hyperparameters with RandomizedSearchCV for optimal performance.
 
-Deep Learning Model:
+**Deep Learning Model:**
 
 Designed a Neural Network (ANN) with multiple dense layers using Keras.
 
