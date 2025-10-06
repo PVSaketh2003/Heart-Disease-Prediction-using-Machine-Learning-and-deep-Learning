@@ -1,4 +1,4 @@
-🩺 **#Heart Disease Prediction using Machine Learning & Deep Learning**
+🩺 **<h1> Heart Disease Prediction using Machine Learning & Deep Learning </h1>**
 
 This project predicts the likelihood of heart disease using multiple machine learning and deep learning models on a structured clinical dataset.
 
