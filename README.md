@@ -1,77 +1,39 @@
-# Heart-Disease-Prediction-using-Machine-Learning-and-deep-Learning
+🩺 Heart Disease Prediction using Machine Learning & Deep Learning
 
-🩺 **Heart Disease Prediction using Machine Learning & Deep Learning**
+This project predicts the likelihood of heart disease using multiple machine learning and deep learning models on a structured clinical dataset.
 
-This project focuses on predicting the likelihood of heart disease in patients using a variety of machine learning and deep learning techniques.
-It uses a structured dataset containing patient health attributes such as age, cholesterol, resting blood pressure, thalassemia, and more.
+🚀 Overview
 
-🔍 **Project Overview**
+**Dataset:** 1025 records, 14 features
 
-Dataset Size: 1025 records, 14 features
+**Goal:** Predict heart disease presence (1) or absence (0)
 
-Goal: Classify whether a person is likely to have heart disease (1) or not (0)
+**Tools:** Python, Pandas, NumPy, Scikit-learn, Keras, Matplotlib, Seaborn
 
-Tech Stack: Python, Pandas, NumPy, Scikit-learn, Keras, Matplotlib, Seaborn
+⚙️ Process
 
-⚙️ **Key Steps**
+**Data Preprocessing:** Cleaned data, handled outliers, and scaled features.
 
-**Data Preprocessing:**
+**EDA:** Visualized relationships between features like chest pain type, cholesterol, and thalassemia.
 
-Handled missing values, renamed columns, and removed outliers.
+**Model Training:** Compared Logistic Regression, Decision Tree, Random Forest, SVM, KNN, and Naive Bayes.
 
-Scaled features using StandardScaler.
+**Hyperparameter Tuning:** Used RandomizedSearchCV for model optimization.
 
-**Exploratory Data Analysis (EDA):**
+**Deep Learning:** Built a multi-layer ANN using Keras for binary classification.
 
-Visualized correlations between features like chest pain type, thalassemia, and heart disease risk using Seaborn.
+🧠 Best Results
 
-**Model Training:**
+**KNN:** 100% accuracy
 
-Built and compared multiple classification models:
+**Random Forest & Decision Tree:** ~98.5%
 
-Logistic Regression
+**ANN(Keras)**:~95.7% validation accuracy
 
-Decision Tree
+📊 Metrics
 
-Random Forest
+Accuracy, Precision, Recall, F1-Score, and Confusion Matrix visualizations.
 
-Support Vector Machine (SVM)
+🩸 Objective
 
-K-Nearest Neighbors (KNN)
-
-Naive Bayes
-
-Tuned hyperparameters with RandomizedSearchCV for optimal performance.
-
-**Deep Learning Model:**
-
-Designed a Neural Network (ANN) with multiple dense layers using Keras.
-
-Achieved strong accuracy on validation data (≈95–97%).
-
-🧠 **Best Performing Models**
-
-KNN (Tuned): 100% test accuracy
-
-Random Forest & Decision Tree: ~98.5% test accuracy
-
-Neural Network: ~95.7% validation accuracy
-
-📊 **Evaluation Metrics**
-
-Accuracy
-
-Precision, Recall, F1-Score
-
-Confusion Matrix visualization
-
-📁** How to Use**
-
-Download or clone the repository.
-
-Run the Jupyter Notebook or Python file provided.
-
-The trained model will display predictions and performance metrics.
-
-🎯 **Objective:**
-This project demonstrates how multiple supervised learning algorithms and deep learning architectures can be applied and optimized for a medical classification problem, emphasizing interpretability, model comparison, and performance tuning.
+Showcases how classical ML and deep learning techniques can be applied to medical prediction tasks with effective preprocessing, tuning, and evaluation.
